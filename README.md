@@ -20,23 +20,30 @@
 
 -------------------------------------------------------------------------
 
-# Get phone model with photo
+# The robot shows the clock in the Telegram account
 
-A Python script that you can use to understand the model of the phone that was taken
-
-https://user-images.githubusercontent.com/111338534/203596161-260646e5-bd18-41e8-8c92-e1777e6b2116.mp4
+A Telegram bot written with Meadline library in php language
 
 ## How to run:
 
-- Download the script and install its libraries with the pip install library command (instead of library, use the name of the library you want to install)
-- Then run the script and give it the photo path.
-- If the photo was taken with the phone camera, you can find out what the phone model is.
+- First, upload the files to your host (note that your host must support Medline bots)
+- Then enter the php version selection section on your host and set the php version to 8.1
+- Open your domain address and go to Telegram bot and run it
+- Be on the default option and go to the next step
+- In the next step, it will ask you for a number, which you must give the number of the account where you want to install the robot method (for example: +989150895612)
+- In the next step, send a code to your account and enter that code
+- Now select the user option, which is still the default, and go to the next step
+- A confirmation code will be sent to your account again and enter it
+- It is suggested that before doing these things, if your account has two-step verification, remove it, otherwise, you must enter it in this section.
+- Congratulations, the bot has been successfully activated on your account and displays the clock in your account name and biography
+- Logged into cPanel in cronjab section
+- In this section, on the path of the robot file, set Kronjob to 1 minute
 Good luck
 
 -------------------------------------------------------------------------
 
 ### ❤️Thank you Supporters - با تشکر از شما حامیان❤️
-[![Stargazers repo roster for malbo-dev](https://reporoster.com/stars/dark/malbo-dev/photoModel)](https://github.com/malbo-dev/photoModel/stargazers)
+[![Stargazers repo roster for malbo-dev](https://reporoster.com/stars/dark/malbo-dev/TimeBioTelegram)](https://github.com/malbo-dev/TimeBioTelegram/stargazers)
 
 ## 🔗 Channel - شبکه های اجتماعی
 [![instagram](https://img.shields.io/badge/Channel-Telegram-blue)](https://t.me/Malbo_Dev)
