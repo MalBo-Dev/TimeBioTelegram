@@ -1,18 +1,7 @@
-<?php /* In the name of Allah = بسم اللّه الرّحمن الرّحیم */
-/*
-بانک انواع سورس کد های مختلف به صورت کاملا تست شده
-هر روز کلی سورس کد و اسکریپت منتظر شماست !
+<?php 
 
-@MadeLineproto_F
-https://t.me/MadeLineproto_F
-*/
-/**
- * @فارسی : توابع زمان و تاریخ هجری شمسی (جلالی) در پی اچ پی
- * @name: Hijri_Shamsi,Solar(Jalali) Date and Time Functions
- * @Author : Reza Gholampanahi & WebSite : http://jdf.scr.ir
- * @License: GNU/LGPL _ Open Source & Free : [all functions]
- * @Version: 2.70 =>[ 1395/11/22 = 1438/05/12 = 2017/02/10 ]
- */
+// MalBo.ir
+// Telegram : @MalBo_Dev
 
 /*	F	*/
 function jdate($format,$timestamp='',$none='',$time_zone='Asia/Tehran',$tr_num='fa'){
@@ -645,4 +634,7 @@ function jalali_to_gregorian($jy,$jm,$jd,$mod=''){
  }
  return($mod==='')?array($gy,$gm,$gd):$gy .$mod .$gm .$mod .$gd;
 }
+
+// MalBo.ir
+// Telegram : @MalBo_Dev
 
