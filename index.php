@@ -1,13 +1,13 @@
 <?php
-// @CodeSPHP
+// MalBo.ir
+// Telegram : @MalBo_Dev
+// Aparat : aparat.com/malbo_dev
 
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
 include 'madeline.php';
 include("jdf.php");
-#کرون جاب ست شود
-#نوشته شده : 
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->async(false);
 $MadelineProto->start();
